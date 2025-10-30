@@ -4,7 +4,7 @@ description: "A new Flutter project."
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-# The following defines the version and build number for your application.
+# The following defines the vclersion and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
 # Both the version and the builder number may be overridden in flutter
@@ -31,6 +31,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  carousel_pro:
+    git:
+      url: https://github.com/Habib2907/flutter.git
+      ref: main # branch name
 
   shared_preferences: ^2.2.2
 
